@@ -25,7 +25,7 @@ After implementing the `TuyaSmartPanelSDKDelegate` Delegate, you can receive pan
 | group     | Group Model of the triggered panel |
 | urlString | The router url |
 
-**代码示例**
+**Sample Code**
 
 ```objective-c
 #pragma mark - TuyaSmartPanelSDKDelegate
