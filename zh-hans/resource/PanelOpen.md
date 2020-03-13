@@ -14,7 +14,7 @@
 | device     | 传入对应的 device 模型                                   |
 | completion | 打开面板失败的错误回调（NSError *error：具体参考错误码） |
 
-**代码示例** 
+**示例代码** 
 
 ```objective-c
 // deviceModel class is TuyaSmartDeviceModel
@@ -40,7 +40,7 @@
 | group      | 传入对应的 group 模型                                    |
 | completion | 打开面板失败的错误回调（NSError *error：具体参考错误码） |
 
-**代码示例** 
+**示例代码** 
 
 ```objective-c
 //  groupModel class is TuyaSmartGroupModel

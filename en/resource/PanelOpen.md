@@ -7,14 +7,14 @@ The panel jumps based on navigator push by default. When called, sdk will select
 
 ### Goto device panel
 
-**Parameter Description**
+**Parameters**
 
 | Parameter       | Description                                                     |
 | ---------- | -------------------------------------------------------- |
 | device     | TuyaSmartDeviceModel               |
 | completion | Failed to open panel error callback. (NSError *error：Specific reference error code) |
 
-**Sample Code** 
+**Example** 
 
 ```objective-c
 // deviceModel class is TuyaSmartDeviceModel
@@ -33,14 +33,14 @@ The panel jumps based on navigator push by default. When called, sdk will select
 
 ### Goto group panel
 
-**Parameter Description**
+**Parameters**
 
 | Parameter       | Description                                                     |
 | ---------- | -------------------------------------------------------- |
 | group      | TuyaSmartGroupModel                                    |
 | completion | Failed to open panel error callback. (NSError *error：Specific reference error code) |
 
-**Sample Code** 
+**Example** 
 
 ```objective-c
 //  groupModel class is TuyaSmartGroupModel

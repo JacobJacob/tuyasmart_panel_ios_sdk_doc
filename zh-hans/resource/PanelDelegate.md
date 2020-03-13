@@ -4,7 +4,7 @@
 
 #### 点击面板右上角事件
 
-**代码示例** 
+**示例代码** 
 
 ```objective-c
 #pragma mark - TuyaSmartPanelSDKDelegate
@@ -25,7 +25,7 @@
 | group     | 被触发面板的群组实体 |
 | urlString | 跳转短链             |
 
-**代码示例**
+**示例代码**
 
 ```objective-c
 #pragma mark - TuyaSmartPanelSDKDelegate
@@ -49,7 +49,7 @@
 | device | 设备实体 |
 | group  | 群组实体 |
 
-**代码示例**
+**示例代码**
 
 ```objective-c
 #pragma mark - TuyaSmartPanelSDKDelegate

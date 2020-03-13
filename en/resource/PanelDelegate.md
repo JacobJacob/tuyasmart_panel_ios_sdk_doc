@@ -4,7 +4,7 @@ After implementing the `TuyaSmartPanelSDKDelegate` Delegate, you can receive pan
 
 #### Click Panel Toolbar Right Menu
 
-**Sample Code** 
+**Example** 
 
 ```objective-c
 #pragma mark - TuyaSmartPanelSDKDelegate
@@ -17,7 +17,7 @@ After implementing the `TuyaSmartPanelSDKDelegate` Delegate, you can receive pan
 
 #### Get the Panel Router Url
 
-**Parameter Descrpition**
+**Parameters**
 
 | Parameter      | Descrpition                 |
 | --------- | -------------------- |
@@ -25,7 +25,7 @@ After implementing the `TuyaSmartPanelSDKDelegate` Delegate, you can receive pan
 | group     | Group Model of the triggered panel |
 | urlString | The router url |
 
-**Sample Code**
+**Example**
 
 ```objective-c
 #pragma mark - TuyaSmartPanelSDKDelegate
@@ -42,14 +42,14 @@ After implementing the `TuyaSmartPanelSDKDelegate` Delegate, you can receive pan
 
 When you cannot find the panel container (IPC panel, native panel, etc.) corresponding to the device, you need to implement your own panel container VC according to the device.
 
-**Parameter Description**
+**Parameters**
 
 | Parameter   | Description     |
 | ------ | -------- |
 | device | TuyaSmartDeviceModel |
 | group  | TuyaSmartGroupModel |
 
-**Sample Code**
+**Example**
 
 ```objective-c
 #pragma mark - TuyaSmartPanelSDKDelegate
