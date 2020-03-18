@@ -1,11 +1,11 @@
 ## Open Panel
 
-### About jump to panel
+### About Jump to Panel
 
 The panel jumps based on navigator push by default. When called, sdk will select the vc on the top of the current app to jump.
 **Note:** React-Native rendering of the panel VC will hide the NavigationBar. Please call self.navigationController.navigationBarHidden = NO when you return to your VC.
 
-### Goto device panel
+### Goto Device Panel
 
 **Parameters**
 
@@ -31,7 +31,7 @@ The panel jumps based on navigator push by default. When called, sdk will select
 }];
 ```
 
-### Goto group panel
+### Goto Group Panel
 
 **Parameters**
 

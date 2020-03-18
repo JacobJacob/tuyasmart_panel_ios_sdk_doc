@@ -38,7 +38,7 @@ After implementing the `TuyaSmartPanelSDKDelegate` Delegate, you can receive pan
   }
 ```
 
-#### The callback for cannot find panel container
+#### The Callback for Can Not Find Panel Container
 
 When you cannot find the panel container (IPC panel, native panel, etc.) corresponding to the device, you need to implement your own panel container VC according to the device.
 
