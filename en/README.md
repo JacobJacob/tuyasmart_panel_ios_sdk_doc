@@ -46,9 +46,3 @@ Add the following Bridge Header in Use for Swift project:
 ```swift
 #import <TuyaSmartPanelSDK/TuyaSmartPanelSDK.h>
 ```
-
-Add the following header in Use for Swift project:
-
-```swift
-import TuyaSmartPanelSDK
-```
