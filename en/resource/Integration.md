@@ -1,8 +1,8 @@
 ## Fast Integration
 
-### Use CocoaPods for quick integration
+### Using CocoaPods
 
-Add the following content in the `Podfile` file.
+Add the following content in file `Podfile`:
 
 ```ruby
 source "https://github.com/TuyaInc/TYPublicSpecs.git"
@@ -17,34 +17,57 @@ target 'your_target_name' do
 end
 ```
 
-Then run the `pod update` command in the root directory of project.
-For use of CocoaPods, please refer to the [CocoaPods Guides](https://guides.cocoapods.org/) It is recommended to update the CocoaPods to the latest version.
+Execute command `pod update` in the project's root directory to begin integration.
 
-### Initialize SDK
+For the instructions of CocoaPods, please refer to: [CocoaPods Guides](https://guides.cocoapods.org/) 
+
+### Initializing SDK
 
 1. Open project setting, `Target => General`, edit `Bundle Identifier` to the value from Tuya develop center.
+2. Import security image to the project and rename as `t_s.bmp` from [Preparation Work](https://tuyainc.github.io/tuyasmart_home_ios_sdk_doc/en/resource/Preparation.html), then add it into `Project Setting => Target => Build Phases => Copy Bundle Resources`.
+3. Add the following to the project file `PrefixHeader.pch`：
 
-2. Import security image to the project and rename as `t_s.bmp`, then add it into `Project Setting => Target => Build Phases => Copy Bundle Resources`.
+```objc
+#import <TuyaSmartBaseKit/TuyaSmartBaseKit.h>
+#import <TuyaSmartPanelSDK/TuyaSmartPanelSDK.h>
+```
 
-3. Add the following to the project file `PrefixHeader.pch`, Swift project add the following to the `xxx_Bridging-Header.h` file:
+Swift project add the following to the `xxx_Bridging-Header.h` file:
 
-   ```objc
-   #import <TuyaSmartBaseKit/TuyaSmartBaseKit.h>
-   #import <TuyaSmartPanelSDK/TuyaSmartPanelSDK.h>
-   ```
+```swift
+#import <TuyaSmartBaseKit/TuyaSmartBaseKit.h>
+#import <TuyaSmartPanelSDK/TuyaSmartPanelSDK.h>
+```
 
-4. Open file `AppDelegate.m`，and use the `App Key` and `App Secret` obtained from the development platform in the `[AppDelegate application:didFinishLaunchingWithOptions:]`method to initialize SDK:
+1. Open file `AppDelegate.m`，and use the `App Key` and `App Secret` obtained from the development platform in the `[AppDelegate application:didFinishLaunchingWithOptions:]`method to initialize SDK:
 
-   ObjC
+**Declaration**
 
-   ```objc
-   [[TuyaSmartSDK sharedInstance] startWithAppKey:<#your_app_key#> secretKey:<#your_secret_key#>];
-   ```
+Init SDK
 
-   Swift
+```objc
+- (void)startWithAppKey:(NSString *)appKey secretKey:(NSString *)secretKey;
+```
 
-   ```swift
-   TuyaSmartSDK.sharedInstance()?.start(withAppKey: <#your_app_key#>, secretKey: <#your_secret_key#>)
-   ```
+**Parameters**
+
+| **Parameter** | **Description** |
+| ------------- | --------------- |
+| appKey        | App key         |
+| secretKey     | App secret key  |
+
+**Example**
+
+Objc:
+
+```objc
+[[TuyaSmartSDK sharedInstance] startWithAppKey:<#your_app_key#> secretKey:<#your_secret_key#>];
+```
+
+Swift:
+
+```swift
+ TuyaSmartSDK.sharedInstance()?.start(withAppKey: <#your_app_key#>, secretKey: <#your_secret_key#>)
+```
 
 Now all the prepare work has been completed. You can use the sdk to develop your application now.

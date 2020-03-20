@@ -1,8 +1,8 @@
-# Tuya Smart iOS Panel SDK
+# Tuya Smart iOS Device Control Biz Bundle
 
 ## Features Overview
 
-Tuya Smart iOS Panel SDK is the core container of Tuya Smart Device Control Panel, based on the Tuya Smart iOS Home SDK, it provides the interface package for loading and controlling the device control panel to speed up the application development process. It mainly includes the following functions:
+Tuya Smart iOS Device Control Biz Bundle is the core container of Tuya Smart Device Control Panel, based on the Tuya Smart iOS Home SDK, it provides the interface package for loading and controlling the device control panel to speed up the application development process. It mainly includes the following functions:
 
 - Load Device Panel (Supported hardware device type: WIFI, Unsupported: Zigbee、Mesh、BLE)
 - Device Panel Control (Supported Device and Group Control, Unsupported Group Manager)
@@ -34,7 +34,7 @@ For the instructions of CocoaPods, please refer to: [CocoaPods Guides](https://g
 ### Initializing SDK
 
 1. Open project setting, `Target => General`, edit `Bundle Identifier` to the value from Tuya develop center.
-2. Import security image to the project and rename as `t_s.bmp`, then add it into `Project Setting => Target => Build Phases => Copy Bundle Resources`.
+2. Import security image to the project and rename as `t_s.bmp` from [Preparation Work](https://tuyainc.github.io/tuyasmart_home_ios_sdk_doc/en/resource/Preparation.html), then add it into `Project Setting => Target => Build Phases => Copy Bundle Resources`.
 3. Add the following to the project file `PrefixHeader.pch`：
 
 ```objc

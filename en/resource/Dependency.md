@@ -1,6 +1,6 @@
 ## Dependency description
 
-The following three-party libraries are included in this SDK:
+The following three-party libraries are included in Tuya Smart iOS Device Control Biz Bundle:
 
 - React Native 0.51 (customized)
 - yoga 0.51.0

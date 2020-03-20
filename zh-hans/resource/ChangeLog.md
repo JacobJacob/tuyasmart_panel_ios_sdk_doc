@@ -1,4 +1,4 @@
-# TuyaSmartPanelSDK iOS SDK Change Log
+# 涂鸦智能 iOS 设备控制业务包更新日志
 
 
 ## 0.4.0 (2020-03-04)

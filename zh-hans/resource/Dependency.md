@@ -1,6 +1,6 @@
 ## 依赖说明
 
-本 SDK 中包含以下三方库：
+涂鸦智能 iOS 设备控制业务包包含以下三方库：
 
 - React Native 0.51 (customized)
 - yoga 0.51.0
