@@ -2,8 +2,8 @@
 
 ### 关于面板跳转
 
-面板默认基于 navigator push 进行跳转，调用时 sdk 会选择最当前 app 最顶上的 vc 进行跳转
-**注意:** 面板 VC 使用 React-Native 渲染，会隐藏 NavigationBar，请在回到自己 VC 时主动调用 self.navigationController.navigationBarHidden = NO
+面板默认基于导航栏压栈方式进行跳转，调用时会选择最当前应用程序最顶上的视图控制器进行跳转
+**注意:** 面板视图控制器使用 React-Native 渲染，会隐藏导航栏，请在回到自己的视图控制器时主动调用 `self.navigationController.navigationBarHidden = NO;`
 
 ### 进入设备面板
 
@@ -35,10 +35,10 @@
 
 **参数说明**
 
-| 参数       | 说明                                                     |
-| ---------- | -------------------------------------------------------- |
-| group      | 传入对应的 group 模型                                    |
-| completion | 打开面板失败的错误回调（NSError *error：具体参考错误码） |
+| 参数       | 说明                                                       |
+| ---------- | ---------------------------------------------------------- |
+| group      | 传入对应的群组模型（`TuyaSmartGroupModel`）                |
+| completion | 打开面板失败的错误回调（`NSError *error`：具体参考错误码） |
 
 **示例代码** 
 

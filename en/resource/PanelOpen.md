@@ -2,8 +2,8 @@
 
 ### About Jump to Panel
 
-The panel jumps based on navigator push by default. When called, sdk will select the vc on the top of the current app to jump.
-**Note:** React-Native rendering of the panel VC will hide the NavigationBar. Please call self.navigationController.navigationBarHidden = NO when you return to your VC.
+The panel jumps based on navigation controller push by default. When called, sdk will select the view controller on the top of the current app to jump.
+**Note:** React-Native rendering of the panel view controller will hide the Navigation Bar. Please call `self.navigationController.navigationBarHidden = NO;` when you return to your view controller.
 
 ### Goto Device Panel
 
@@ -38,7 +38,7 @@ The panel jumps based on navigator push by default. When called, sdk will select
 | Parameter       | Description                                                     |
 | ---------- | -------------------------------------------------------- |
 | group      | TuyaSmartGroupModel                                    |
-| completion | Failed to open panel error callback. (NSError *error：Specific reference error code) |
+| completion | Failed to open panel error callback. (`NSError *error`：Specific reference error code) |
 
 **Example** 
 
