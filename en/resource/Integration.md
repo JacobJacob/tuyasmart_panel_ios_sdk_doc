@@ -1,4 +1,4 @@
-## Fast Integration
+## Integration
 
 ### Using CocoaPods
 

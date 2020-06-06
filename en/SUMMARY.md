@@ -1,10 +1,10 @@
 # Summary
 
-* [Introduction](README.md)
+* [Features Overview](README.md)
 * [Dependency](./resource/Dependency.md)
-* [Preparation](./resource/Preparation.md) 
+* [Preparation for Integration](./resource/Preparation.md) 
 * [Integration](./resource/Integration.md)
-* [Features]() 
+* [Features](./resource/PanelTitle.md)
   * [Open Panel](./resource/Panel.md#open-panel) 
   * [Panel Delegate](./resource/Panel.md#panel-sdk-delegate)
   * [Clear Cache](./resource/Panel.md#clear-panel-cache) 
