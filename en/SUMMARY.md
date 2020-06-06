@@ -4,7 +4,7 @@
 * [Dependency](./resource/Dependency.md)
 * [Preparation for Integration](./resource/Preparation.md) 
 * [Integration](./resource/Integration.md)
-* [Features](./resource/PanelTitle.md)
+* [Features](./resource/Panel.md)
   * [Open Panel](./resource/Panel.md#open-panel) 
   * [Panel Delegate](./resource/Panel.md#panel-sdk-delegate)
   * [Clear Cache](./resource/Panel.md#clear-panel-cache) 
