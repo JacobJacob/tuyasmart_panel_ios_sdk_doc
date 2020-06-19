@@ -9,4 +9,5 @@
   * [Clear Cache](./resource/Panel.md#clear-panel-cache) 
 * [Error Code](./resource/ErrorCode.md) 
 * [ChangeLog](./resource/ChangeLog.md) 
+* [Upgrading](Upgrading.md)
 

@@ -9,4 +9,4 @@
   * [清除所有面板缓存](./resource/Panel.md#清除所有面板缓存) 
 * [错误码](./resource/ErrorCode.md) 
 * [更新日志](./resource/ChangeLog.md) 
-
+* [迁移指南](Upgrading.md)
